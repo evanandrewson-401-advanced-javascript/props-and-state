@@ -1,7 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<App>
+  <ColorContainer>
+    <ColorDisplay
+      backgroundColor="black"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": "100px",
+            "width": "100px",
+          }
+        }
+      />
+    </ColorDisplay>
+    <ColorPicker
+      colors={
+        Array [
+          "red",
+          "green",
+          "black",
+          "yellow",
+        ]
+      }
+      selectColor={[Function]}
+    >
+      <button
+        key="red"
+        onClick={[Function]}
+      >
+        red
+      </button>
+      <button
+        key="green"
+        onClick={[Function]}
+      >
+        green
+      </button>
+      <button
+        key="black"
+        onClick={[Function]}
+      >
+        black
+      </button>
+      <button
+        key="yellow"
+        onClick={[Function]}
+      >
+        yellow
+      </button>
+    </ColorPicker>
+  </ColorContainer>
+  <RandomC255olor>
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "height": "100vh",
+          "width": "100vw",
+        }
+      }
+    />
+  </RandomC255olor>
+</App>
 `;
