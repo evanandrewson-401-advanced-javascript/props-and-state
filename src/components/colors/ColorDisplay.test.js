@@ -4,7 +4,7 @@ import ColorDisplay from './ColorDisplay';
 
 describe('ColorDisplay component', () => {
   it('renders ColorDisplay', () => {
-    const wrapper = mount(<ColorDisplay />);
+    const wrapper = mount(<ColorDisplay backgroundColor="white" />);
     expect(wrapper).toMatchSnapshot();
   });
 });
